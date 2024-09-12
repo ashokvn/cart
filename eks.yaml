@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
         - name: cart-app-cntnr
-          #image: 577054949759.dkr.ecr.eu-west-2.amazonaws.com/avn-repo:avn-demo
-          image: ashokvishnu/cart
+          image: 577054949759.dkr.ecr.eu-west-2.amazonaws.com/avn-repo:cartapp
           ports:
             - containerPort: 8091
 
